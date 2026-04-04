@@ -49,11 +49,15 @@ include-package-data = true
 packages = ["aws_rl_env", "aws_rl_env.server"]
 package-dir = { "aws_rl_env" = ".", "aws_rl_env.server" = "server" }
 
+[tool.ruff]
+exclude = ["aws_infra/"]
+
 [tool.uv.sources]
 aws-infra = { path = "aws_infra", editable = true }
 
 [tool.mypy]
 files = ["*.py", "server/"]
+exclude = ["aws_infra/"]
 ignore_missing_imports = true
 namespace_packages = true
 explicit_package_bases = true
