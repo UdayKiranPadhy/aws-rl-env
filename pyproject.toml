@@ -26,7 +26,7 @@ dependencies = [
     # "gymnasium>=0.29.0",
     # "openspiel>=1.0.0",
     # "smolagents>=1.22.0,<2",
-    "ministack>=1.1.24",
+    "aws-infra",
     "python-dotenv>=1.0.0",
 ]
 
@@ -48,6 +48,9 @@ server = "aws_rl_env.server.app:main"
 include-package-data = true
 packages = ["aws_rl_env", "aws_rl_env.server"]
 package-dir = { "aws_rl_env" = ".", "aws_rl_env.server" = "server" }
+
+[tool.uv.sources]
+aws-infra = { path = "aws_infra", editable = true }
 
 [tool.mypy]
 files = ["*.py", "server/"]
