@@ -171,7 +171,6 @@ A founder-pitch walkthrough for the HuggingFace Space at
   - 📦 **GitHub** — `github.com/udaykiranpadhy/aws-rl-env`
   - 📓 **Colab notebooks** — see repo `train/`
 - QR code (bottom-right) → live demo URL
-- Tiny credit line: `OpenEnv  2026`
 
 **Visual**
 - NEW graphic **GFX-3**: end card. Static frame, hold full 15 s. Background: faint architecture diagram at 10% opacity.

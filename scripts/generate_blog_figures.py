@@ -80,9 +80,6 @@ def hero() -> None:
         ax.text(x + box_w / 2, y + h * 0.22, small,
                 fontsize=10.5, color=SLATE, ha="center", va="center")
 
-    ax.text(11.55, 4.55, "OpenEnv   \u2022  Apr 2026",
-            fontsize=10, color=SLATE, ha="right", style="italic")
-
     _save(fig, "blog_hero.png")
 
 

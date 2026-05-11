@@ -2,7 +2,7 @@
 
 [← back to main README](../README.md)
 
-This directory holds the SFT training corpus, the dataset generator that produced it, and the rigorous benchmark we used to pick the base model. Together they answer two questions a  judge should be able to verify in under five minutes:
+This directory holds the SFT training corpus, the dataset generator that produced it, and the rigorous benchmark we used to pick the base model.
 
 1. **What did we train on?** A 1,500-row synthetic SFT corpus with five trajectory types covering success, continuation, failure recovery, verification, and hint usage. ([§1](#1-sft-dataset-generation))
 2. **Why this base model?** A reproducible 11-model benchmark across 27 held-out prompts. **Qwen2.5-Coder-3B-Instruct** wins on every metric that matters. ([§5](#5-base-model-selection-overview))

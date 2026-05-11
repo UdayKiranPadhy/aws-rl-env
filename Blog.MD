@@ -536,7 +536,6 @@ PRs welcome at [github.com/udaykiranpadhy/aws-rl-env](https://github.com/udaykir
 
 Thank you to:
 
-- **Meta, PyTorch, Hugging Face, Unsloth, and Scaler** for organizing the [OpenEnv ](https://huggingface.co/blog/openenv) and providing mentors who helped clarify questions throughout.
 - **MiniStack** — vendored at [aws_infra/](aws_infra/), upstream license preserved. Custom modifications are commits `a648c3a`, `a00e981`; periodic upstream syncs `af2e945`, `579597b`.
 - **OpenEnv** — environment protocol and Python client framework that this entire project plugs into.
 - **TRL** (Hugging Face) — `GRPOTrainer` implementation and the rest of the post-training stack.
@@ -560,9 +559,6 @@ Thank you to:
 | [aws_infra/README.md](aws_infra/README.md) | Vendored MiniStack upstream documentation |
 
 ---
-
-*Built for the **OpenEnv  2026** — Apr 26, 2026. Questions / feedback? Open an issue or PR at [github.com/udaykiranpadhy/aws-rl-env](https://github.com/udaykiranpadhy/aws-rl-env).*
-
 
 ### Small Explanation Video
 - [Recorded Video](https://share.zight.com/NQu0pLvQ)

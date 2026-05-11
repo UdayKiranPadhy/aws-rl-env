@@ -691,7 +691,6 @@ These tests double as the source of truth for canonical solutions used by the SF
 
 ## 17. Acknowledgments
 
-- **Meta,HuggingFace,UnslothAndScalar** for Organising  and providing mentors to clarify the doubts.
 - **MiniStack** — vendored at [aws_infra/](aws_infra/). Upstream license preserved. Custom modifications attributable to commits `a648c3a`, `a00e981`; periodic upstream syncs `af2e945`, `579597b`.
 - **OpenEnv** — environment protocol and Python client framework.
 - **TRL** (HuggingFace) — `GRPOTrainer` implementation.
